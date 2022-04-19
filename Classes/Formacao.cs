@@ -2,9 +2,9 @@ namespace exerciciobacharelado
 {
     public class Formacao
     {
-        public string descricao {get; set;}
-        public int periodo {get; set;}
-        public double mensalidade {get; set;}
-        public int duracao {get; set;} 
+        private string descricao {get; set;}
+        private int periodo {get; set;}
+        private double mensalidade {get; set;}
+        private int duracao {get; set;} 
     }
 }
