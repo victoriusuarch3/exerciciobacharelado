@@ -2,10 +2,10 @@ namespace exerciciobacharelado
 {
     public class Formacao
     {
-        private string Descricao {get; set;}
-        private int Periodo {get; set;}
-        private double Mensalidade {get; set;}
-        private int Duracao {get; set;} 
+        protected string Descricao {get; set;}
+        protected int Periodo {get; set;}
+        protected double Mensalidade {get; set;}
+        protected int Duracao {get; set;} 
 
         public Formacao(string descricao, int periodo){
             Descricao = descricao;
@@ -15,7 +15,28 @@ namespace exerciciobacharelado
             return Descricao;
         }
         public void SetDescriacao(string descricao){
-
+            Descricao = descricao;
         }
+
+        public int GetPeriodo(){
+            return Periodo;
+        }
+        public void SetPeriodo(int periodo){
+            Periodo = Periodo;
+        }
+        public double GetMensalidade(){
+            return Mensalidade;
+        }
+        public void SetMensalidade(double mensalidade){
+            Mensalidade = mensalidade;
+        }
+        public int GetDuracao(){
+            return Duracao;
+        }
+        public void SetDuracacao(int duracao){
+            Duracao = duracao;
+        }
+
+        
     }
 }
