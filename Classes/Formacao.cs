@@ -11,5 +11,11 @@ namespace exerciciobacharelado
             Descricao = descricao;
             Periodo = periodo;
         }
+        public string GetDescricao(){
+            return Descricao;
+        }
+        public void SetDescriacao(string descricao){
+
+        }
     }
 }
